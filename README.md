@@ -4,7 +4,7 @@ Membuat sebuah REST API yang dapat digunakan untuk melakukan manajemen data mobi
 # ENDPOINT REST API 
 
 * Register
-> POST http://localhost:5000/v1/api/login  
+> POST http://localhost:5000/v1/api/register  
 >  
 > Contoh Request & Response Body  
 >   
@@ -20,7 +20,7 @@ Membuat sebuah REST API yang dapat digunakan untuk melakukan manajemen data mobi
 > akan menghasilkan access token yang nantinya akan digunakan untuk melakukan CRUD untuk admin dan superadmin.
 >
 * Tampil Data 
-> GET http://localhost:5000/v1/api/getCarsForSuperAdmin  
+> GET http://localhost:5000/v1/api/getCars
 >  
 > Contoh Request & Response Body  
 >   
