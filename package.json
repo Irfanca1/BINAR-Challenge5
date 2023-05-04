@@ -1,0 +1,26 @@
+{
+  "name": "binar-challenge-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "make-model-user": "npx sequelize-cli model:generate --name User --attributes email:string,password:string,role:string,createdBy:string",
+    "make-model-car": "npx sequelize-cli model:generate --name Car --attributes nama:string,harga:double,ukuran:string,createdBy:string,updatedBy:string",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "sequelize": "^6.31.1",
+    "sequelize-cli": "^6.6.0"
+  }
+}
