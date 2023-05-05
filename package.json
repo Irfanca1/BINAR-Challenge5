@@ -7,6 +7,7 @@
     "dev": "nodemon index.js",
     "make-model-user": "npx sequelize-cli model:generate --name User --attributes email:string,password:string,role:string,createdBy:string",
     "make-model-car": "npx sequelize-cli model:generate --name Car --attributes nama:string,harga:double,ukuran:string,createdBy:string,updatedBy:string",
+    "seed": "npx sequelize-cli db:seed:all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -18,11 +18,17 @@ module.exports = {
       ukuran: {
         type: Sequelize.STRING
       },
+      isDeleted: {
+        type: Sequelize.INTEGER
+      },
       createdBy: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
       },
       updatedBy: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
+      },
+      deletedBy: {
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,

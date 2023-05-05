@@ -14,8 +14,26 @@ Membuat sebuah REST API yang dapat digunakan untuk melakukan manajemen data mobi
 * Login
 > POST http://localhost:5000/v1/api/login  
 >  
+## Email dan Password Admin : 
+>
+email: admin@gmail.com
+>
+password: admin123
+>
+## Email dan Password SuperAdmin : 
+>
+email: superadmin@gmail.com
+>
+password: superadmin123
+>
+## Email dan Password Member : 
+>
+email: member@gmail.com
+>
+password: member123
+>
 > Contoh Request & Response Body  
->   
+>
 ![alt text](./assets/images/Login.png)
 > akan menghasilkan access token yang nantinya akan digunakan untuk melakukan CRUD untuk admin dan superadmin.
 >
@@ -24,34 +42,34 @@ Membuat sebuah REST API yang dapat digunakan untuk melakukan manajemen data mobi
 >  
 > Contoh Request & Response Body  
 >   
-![alt text](./assets/images/Read.png)
+![alt text](./assets/images/TampilData.png)
 > Salin access token tadi di Authorization dan pilih typenya Bearer Token kemudian paste kan di Token 
   
   
 * Tambah Data 
-> POST http://localhost:5000/v1/api/addCarForSuperAdmin   
+> POST http://localhost:5000/v1/api/addCar
 >  
 > Contoh Request & Response Body  
 >   
-![alt text](./assets/images/Add.png)
+![alt text](./assets/images/TambahData.png)
 > Salin access token tadi di Authorization dan pilih typenya Bearer Token kemudian paste kan di Token 
 
 
 * Ubah Data 
-> PUT http://localhost:5000/v1/api/editCarForSuperAdmin/4  
+> PUT http://localhost:5000/v1/api/editCar/4  
 >  
 > Contoh Request & Response Body  
 >   
-![alt text](./assets/images/Update.png)
+![alt text](./assets/images/EditData.png)
 > Salin access token tadi di Authorization dan pilih typenya Bearer Token kemudian paste kan di Token 
 
 
 * Hapus Data 
-> DELETE http://localhost:5000/v1/api/deleteCarForSuperAdmin/4
+> PUT http://localhost:5000/v1/api/deleteCar/4
 >  
 > Contoh Request & Response Body  
 >   
-![alt text](./assets/images/Delete.png)
+![alt text](./assets/images/HapusData.png)
 > Salin access token tadi di Authorization dan pilih typenya Bearer Token kemudian paste kan di Token 
 
 
@@ -60,6 +78,5 @@ Membuat sebuah REST API yang dapat digunakan untuk melakukan manajemen data mobi
 >  
 > Contoh Request & Response Body  
 >   
-![alt text](./assets/images/Add%20Admin.png)
-> Jika error seperti di gambar maka silakan gunakan email lain.
+![alt text](./assets/images/TambahDataAdmin.png)
   

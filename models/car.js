@@ -17,8 +17,10 @@ module.exports = (sequelize, DataTypes) => {
     nama: DataTypes.STRING,
     harga: DataTypes.DOUBLE,
     ukuran: DataTypes.STRING,
-    createdBy: DataTypes.STRING,
-    updatedBy: DataTypes.STRING
+    isDeleted: DataTypes.INTEGER,
+    createdBy: DataTypes.INTEGER,
+    updatedBy: DataTypes.INTEGER,
+    deletedBy: DataTypes.INTEGER,
   }, {
     sequelize,
     modelName: 'Car',
