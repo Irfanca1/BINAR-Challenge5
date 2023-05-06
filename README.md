@@ -1,6 +1,9 @@
 # BINAR-Challenge5 - Membuat Open API Documentation dari REST API
 Membuat sebuah REST API yang dapat digunakan untuk melakukan manajemen data mobil dengan fitur authentication
 
+# LINK PUBLISH API
+https://documenter.getpostman.com/view/21213638/2s93eX1tGd
+
 # ENDPOINT REST API 
 
 * Register

@@ -3,7 +3,7 @@ const { Car } = require('../models')
 exports.getCars = async (req, res) => {
     try {
         const users = await Car.findAll({
-            attributes: ["id", "nama", "harga", "ukuran", "isDeleted", "createdBy", "updatedBy", "deletedBy"],
+            attributes: ["id", "nama", "harga", "ukuran", "isDeleted", "createdBy", "updatedBy"],
             order: [['id', 'ASC']],
             where: {
                 isDeleted: 0
